@@ -4,7 +4,7 @@ const router = express.Router();
 
 // post man localhost:8080/api/station
 router.post("/api/station", async(req,res)=>{
-    // res.send("hello");
+    
     const {
         ownerId,
         address,

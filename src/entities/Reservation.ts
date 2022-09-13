@@ -36,23 +36,5 @@ export class Reservation extends BaseEntity {
 
 
 
-    // @ManyToOne(
-    //     () => Station, 
-    //     (station) => station.reservations,
-    //     {
-	// 		onDelete: 'CASCADE',
-	// 	})
-    // @JoinColumn({ name: "station_id" })
-    // station: Station;
-
-
-    // @ManyToOne(
-    //     () => User, 
-    //     (user) => user.reservations,
-    //     {
-	// 		onDelete: 'CASCADE',
-	// 	})
-    // @JoinColumn({ name: "users_id" })
-    // user: User;
 
     

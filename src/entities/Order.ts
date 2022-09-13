@@ -40,10 +40,3 @@ export class Order extends BaseEntity {
     paid:boolean;
 }
 
-// @Column(
-//     { type: "json"})
-       
-//         reservation_info:{
-//             start_date: string;
-//             finish_date: number;
-//         }

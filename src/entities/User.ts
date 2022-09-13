@@ -34,52 +34,7 @@ export class User extends BaseEntity {
             )
     reviews: Review[];
 
-    // @OneToMany(
-    //     () => Reservation, 
-    //     (reservation) => reservation.user,
-    //     {cascade: true}
-    //         )
-    //     reservations: Reservation[];
 
 }
 
-   // @Column(
-    //     {
-    //        type: "numeric", 
-    //        //default : 
-    //        name: "user balance"
-    //     })
-    //     balance: number;
-
-
-        // @Column(
-    //     {
-    //     type: "simple-array", 
-    //     default: []
-    //         })
-    //     family_members: string[];
-
-    // @Column(
-    //     {
-    //     type: "json", 
-    //     nullable: true 
-    //         })
-    //         additional_info:{
-    //             age: number;
-    //             hair_color: string;
-    //         }
-
-    // type review = {
-    //     date:Date,
-    //     rating: number,
-    //     comment: string,
-    //     reviewer: string,
-    //     station_id: string,
-    // } 
-    // type reviews = review[];
-    // addReviwe(review: Review){
-    //     if(this.reviews == null){
-    //         this.reviews = new Array<Review>();
-    //     }
-    //     this.reviews.push(review);
-    // }
+   
