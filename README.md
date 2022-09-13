@@ -1,6 +1,6 @@
 # typeorm learning project
 # building a data base using typeorm, typescript, express and more
-## using the method codefirst in order to apply esey cenges in the future
+## using the method codefirst in order to apply esey chenges in the future
 
 ## overview of the DB
 
