@@ -10,8 +10,6 @@ import { Review } from "./entities/Review";
 import { TimeSlot } from "./entities/TimeSlot";
 import { Reservation } from "./entities/Reservation";
 
-
-
 import { createUserRouter } from "./routes/create_user";
 import { createStationRouter } from "./routes/create_station";
 import { createReviewRouter } from "./routes/create_review";
